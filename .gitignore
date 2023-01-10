@@ -3,5 +3,6 @@ dist/
 
 # Python from import 구문을 사용하면 생성되는 파일
 __pycache__
+.ipynb_checkpoints
 
 *.txt
