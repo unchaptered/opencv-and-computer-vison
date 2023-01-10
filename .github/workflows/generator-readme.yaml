@@ -42,5 +42,5 @@ jobs:
           git config --global user.email "github-actions@github.com"
           git config --global user.name "github-actions"
           git add README.md
-          git commit -am 'Update README.md'
+          git commit -am 'Update(Docs) : README.md'
           git push
