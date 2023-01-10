@@ -4,6 +4,7 @@ function getFormatedFolder(folderName: string) {
     const splitedFolder = folderName.split('_');
 
     // 'Docker Core'
+    // 'Docker Core'
     const [number, ...formatedFolder] = splitedFolder;
 
     return formatedFolder.join(' ')
