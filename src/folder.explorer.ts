@@ -18,7 +18,7 @@ const EXCEPT_SET = new Set([
 
 export function getFolderList(fileName: string): string[] {
     
-    const temporalPath = path.join(__dirname, '/../docs', fileName);
+    const temporalPath = path.join(__dirname, '/../python', fileName);
     
     return fs.readdirSync(temporalPath).filter(v => !EXCEPT_SET.has(v));
 
