@@ -10,14 +10,9 @@ function getFormatedFolder(folderName: string) {
 }
 export function convertMarkdownFile(folderMap: Map<string, string[]>): string {
     let markdown = `
-# learn-for-python
+# OpenCV and Computer Vision
 
-learning for python from 2023-01-09 [![README Generator](https://github.com/unchaptered/learn-for-python/actions/workflows/generator-readme.yaml/badge.svg)](https://github.com/unchaptered/learn-for-python/actions/workflows/generator-readme.yaml)
-
-Other projects
-
-- [unchaptered/learn-for-python](https://github.com/unchaptered/learn-for-python)
-- [unchaptered/learn-for-typescript](https://github.com/unchaptered/learn-for-typescript)
+Learning HOW can I use OpenCV to handle videos 
 
 ## Chapters
 
