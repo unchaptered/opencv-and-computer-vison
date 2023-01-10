@@ -19,7 +19,7 @@ Learning HOW can I use OpenCV to handle videos
 
 `;
 
-    const BASE_URL = 'https://github.com/unchaptered/opencv-and-computer-vison/tree/main/';
+    const BASE_URL = './python/';
 
     const folderEntries = [...folderMap].sort();
     // console.log(folderEntries);
@@ -28,7 +28,7 @@ Learning HOW can I use OpenCV to handle videos
         // '1. Docker Core'
         const [ topFolder, secFolderList ] = folderEntries[idx];
 
-        markdown += `${idx + 1}. [${getFormatedFolder(topFolder)}](${encodeURI(BASE_URL + topFolder)})\n`;
+        markdown += `${idx + 1}. [${getFormatedFolder(topFolder)}](${encodeURI(BASE_URL + topFolder)}/README.md)\n`;
         for (let jdx = 0; jdx < secFolderList.length; jdx++) {
             markdown += `   ${jdx + 1}. [${getFormatedFolder(secFolderList[jdx])}](${encodeURI(BASE_URL + topFolder + '/' + secFolderList[jdx])})\n`;
         }
