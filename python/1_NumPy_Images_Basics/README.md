@@ -1,6 +1,6 @@
 [< Backwards](../../README.md)
 
-# Numpy & Image Basics
+# Virtual Environment
 
 [What is numpy?](./README.md#11-numpy1151)
 
@@ -51,3 +51,13 @@ This section is writted by [matplotlib@2.2.3](https://matplotlib.org/2.2.4/index
 
 This section is written by [pillow@5.2.0](https://pillow.readthedocs.io/en/stable/releasenotes/5.2.0.html) in 2023-01-10.
 
+3. Laucnh Jupter-Lab
+    1. Use commands `jupiter-lab`
+    2. Click launch button in Anaconda.Navigator.Home.JupiterLab
+
+## Chatpers
+
+1. [pyscript.py](./python/1_NumPy_Images_Basics/1_pyscript.py)
+2. [numpy tutorial.ipynb](./python/1_NumPy_Images_Basics/2_numpy_tutorial.ipynb)
+3. [numpy images.ipynb](./python/1_NumPy_Images_Basics/3_numpy_images.ipynb)
+4. [numpy image assesment.ipynb](./python/1_NumPy_Images_Basics/4_numpy_image_assesment.ipynb)

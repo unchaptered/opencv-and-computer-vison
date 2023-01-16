@@ -7,3 +7,6 @@ __pycache__
 Data/
 
 *.txt
+*.jpg
+*.png
+*.gif
