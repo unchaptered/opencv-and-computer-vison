@@ -157,3 +157,31 @@ C = (-1/n) * Σ(y*ln(a) + (1-y)*ln(1-a))
 ### 9. Conclusion
 
 Multiple Percentron(ANN)이 효율적으로 정상 작동하기 위해서는 Activate Functions, Cost Functions을 잘 선택해야 합니다.
+
+## Gradient Descent and Backpropagation
+
+한글 제목 : 경사 하강법과 역전파
+
+### 1. Gradient Descent(경사 하강법)
+
+[Gradient Descent](https://en.wikipedia.org/wiki/Gradient_descent)는 최솟값을 찾는데 최적 알고리즘입니다. 따라서, Cost Functions 최적화를 원하는 개발자들에게 큰 이점을 가지고 있습니다. 
+
+```bash
+# x 축 가중치(weight)
+# y 축 비용(cost)
+```
+
+비용 최소화점을 찾기 위해서 가중치가 속한 부분을 `미분`하여 기울기를 연산합니다. 이 기울기가 `최솟값(0)`이 되는 방향까지 `가중치를 조절`하여 비용 최소화점을 찾을 수 있습니다.
+
+![](https://static.javatpoint.com/tutorial/machine-learning/images/gradient-descent-in-machine-learning1.png)
+
+최솟값 자체를 찾는 방식은 매우 간결하고 효율적이지만, 복잡한 그래프를 구성하고 있는 경우에는 다소 난해할 수 있습니다.
+
+### 2. Backpropagation
+
+Gradient Descent의 방법은 모든 가중치를 수정 및 조정 하는 경우에는 적합하지 않을 수 있습니다.
+
+이러한 경우, Backpropagtion을 사용하여 연산이 종료된 outputs의 오차를 조절하게 됩니다.
+
+단어 그대로, Percentron Network(ANN)을 거슬러 올라가면서 오류를 계산하는 방식입니다.
+각 계층마다 Comparison(비교)를 하여 단계별로 조금씩 오류를 계산합니다.
