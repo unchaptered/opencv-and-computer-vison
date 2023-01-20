@@ -195,3 +195,5 @@ Gradient Descent의 방법은 모든 가중치를 수정 및 조정 하는 경�
 
 단어 그대로, Percentron Network(ANN)을 거슬러 올라가면서 오류를 계산하는 방식입니다.
 각 계층마다 Comparison(비교)를 하여 단계별로 조금씩 오류를 계산합니다.
+
+## Keras
