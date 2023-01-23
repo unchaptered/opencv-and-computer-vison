@@ -4,7 +4,13 @@ dist/
 # Python from import 구문을 사용하면 생성되는 파일
 __pycache__
 .ipynb_checkpoints
+
+# 저작권이 걸려있는 File List
 Data/
+CAT_DOGS/
+*.h5
+
+# 결과로 파생되는 File Extensions List
 
 *.txt
 *.jpg
