@@ -6,6 +6,7 @@ const EXCEPT_SET = new Set([
     '.github',
     '.gitignore',
     '.DS_Store',
+    '.ipynb_checkpoints',
     'dist',
     'images',
     'node_modules',
